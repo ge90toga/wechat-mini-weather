@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>-->
+ 
+  <input id="input-city" class="namefiled" bindinput='bindKeyInput' placeholder="City Name" auto-focus/>
+  <input id="input-country"
+  bindinput='bindKeyInput' class="namefiled" placeholder="Country Name" />
+  
+  <button bindtap="onGetWeather" class="getdata" type="default">获取天气</button>
+
+</view>

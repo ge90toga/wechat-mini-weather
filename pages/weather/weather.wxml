@@ -1,0 +1,11 @@
+<view class="container">
+    <view>
+        {{city}}, {{country}} 的天气:
+    </view>
+
+    <view>
+    {{mainStatus}}, {{temprature}}C
+    </view>
+ 
+</view>
+
